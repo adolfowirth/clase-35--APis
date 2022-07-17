@@ -23,7 +23,7 @@ figure{
 }
 .botonAgregar , .botonModificar{
   color: white;
-  background-color: green;
+  background-color: lightgreen;
   padding: 10px;
   border-radius: 10px;
 }
