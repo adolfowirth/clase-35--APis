@@ -30,14 +30,15 @@ const moviesController = {
        
                 meta : {
                     status: 200,
-                    total: movies.length,
+                    
+                    total: movies.length + " minutos",
                     url :"api/movies"
                 },
                  data: {
                     id: movies.id,
-                    name: movies.name,
-                    ranking: movies.ranking,
-                    active: movies.active,
+                    name: movies.title,
+                    awards: movies.awards,
+                    rating: movies.rating,
                     created_at: movies.created_at,
                     updated_At: movies.updated_at
 
